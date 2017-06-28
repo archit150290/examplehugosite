@@ -1,19 +1,18 @@
 # Site settings
 baseurl = "https://example.org/"
-themesDir = "themes"
-publishDir = "docs"
+themesDir = "../.."
 languageCode = "en-us"
-title = "my example hugo website"
-theme = "cactus"
+title = "Hugo Cactus Theme"
+theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 disqusShortname = "spf13"
 
 [params]
-	name = "Archit"
-	description = "This is my website"
-	bio = "Developer"
+	name = "John Doe"
+	description = "Describe your website"
+	bio = "Blogger & Programmer"
 	# Enter optionally your twitter account
 	twitter = "Your Twitter account"
 	enableRSS = true
